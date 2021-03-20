@@ -31,7 +31,7 @@ public class Cliente {
     	}
     	
     	String CPF = this.cpf;
-    	CPF = CPF.replaceAll("\\.|-| |[a-zA-Z]|,", "");
+    	CPF = CPF.replaceAll("\\.|-| |[a-zA-Z]|,|;", "");
     	
         // considera-se erro CPF's formados por uma sequencia de numeros iguais
         if (CPF.equals("00000000000") ||

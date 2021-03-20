@@ -61,10 +61,18 @@ class ValidadorCpfApplicationTests {
 	}
 	
 	@Test
-	void fazendoTesteDeCpfInvalidoComCaractereEspecial() {
+	void fazendoTesteDeCpfInvalidoComVirgula() {
 		Cliente cliente = new Cliente();
 		cliente.setNome("Natalia");
 		cliente.setCpf("419,926.870-73");
+		assertEquals(false, cliente.validarCPF());		
+	}
+	
+	@Test
+	void fazendoTesteDeCpfInvalidoComCaractereEspecial() {
+		Cliente cliente = new Cliente();
+		cliente.setNome("Natalia");
+		cliente.setCpf("419;926.870-73");
 		assertEquals(false, cliente.validarCPF());		
 	}
 	
