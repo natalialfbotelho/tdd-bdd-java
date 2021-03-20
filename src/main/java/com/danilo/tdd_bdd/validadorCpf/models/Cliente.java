@@ -25,8 +25,13 @@ public class Cliente {
 	}
 	
     public boolean validarCPF() {
+    	
+    	if(this.cpf == null) {
+    		return false;
+    	}
+    	
     	String CPF = this.cpf;
-    	CPF = CPF.replace(".", "").replace("-", "").replace(" ", "");
+    	CPF = CPF.replaceAll("\\.|-| |[a-zA-Z]|,", "");
     	
         // considera-se erro CPF's formados por uma sequencia de numeros iguais
         if (CPF.equals("00000000000") ||
