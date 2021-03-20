@@ -58,6 +58,10 @@
 
 <img  alt="Cadastrar"  title="Cadastrar"  src="https://raw.githubusercontent.com/natalialfbotelho/tdd-bdd-java/0c655be5478c51651df89d1f897140794d773964/src/main/resources/static/assets/new-client.png"  width="400px">  
 
+<img  alt="Valido"  title="Valido"  src="https://raw.githubusercontent.com/natalialfbotelho/tdd-bdd-java/main/src/main/resources/static/assets/valid.png"  width="400px">
+
+<img  alt="Invalido"  title="Invalido"  src="https://raw.githubusercontent.com/natalialfbotelho/tdd-bdd-java/main/src/main/resources/static/assets/invalid.png"  width="400px">
+
 </p>
 
   
