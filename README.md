@@ -100,11 +100,7 @@ $ git clone https://github.com/natalialfbotelho/tdd-bdd-java
 ---
 ## 🦸 Autora
 
-<img  style="border-radius: 50%;"  src="https://media-exp1.licdn.com/dms/image/C5603AQF2_UZ_xdqpew/profile-displayphoto-shrink_400_400/0?e=1605744000&v=beta&t=zA7RSdENmfwX1-NIuuw98EsoeMVfnPv8rpC86RDYVZU"  width="100px;"  alt=""/>
-
 <h3><b>Natália Botelho</b></h3>
-
-
   
 
  [![Linkedin Badge](https://img.shields.io/badge/-Natália-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/natalialfbotelho/)](https://www.linkedin.com/in/natalialfbotelho/)
