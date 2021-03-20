@@ -28,7 +28,6 @@
 
 :wrench: Aplicação de testes para fazer validações de CPF em um sistema. 
   
-Estou muito feliz e grata pela oportunidade de desenvolver as minhas habilidades!
   
 
 ---
